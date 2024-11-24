@@ -1,0 +1,20 @@
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'es',  // Set your default page language
+            includedLanguages: 'de,ja,fr,ko,zh-CN,en',  // Only include Spanish
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+    }
+</script>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    
+
+
+----------------- in head-------------------
+
+<div id="google_translate_element"></div>
+
+
+----------------in body------------------------    

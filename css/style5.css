@@ -1,0 +1,37 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+   
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/image.png');
+     
+    overflow: hidden
+  }
+
+  iframe {
+    width: 100%; 
+    max-width: 600px; 
+    height: 90%;
+    border: none; 
+  }
+
+  img {
+    width: 10%;
+    height:fit-content;
+}
+#google_translate_element img {
+  width: 13%;
+  height:0px;
+}
+p{
+  font-size: 30px;
+  font-family:fancy
+}

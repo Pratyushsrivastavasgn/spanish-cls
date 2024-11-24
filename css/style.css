@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+   
+}
+body {
+    background-image: url('../images/image.png');
+    background-size: cover;
+    
+  }
+.header{
+    
+    background-color: black;
+    display: flex;
+    width: auto;
+    height: 70px;
+    
+}
+.header .contentleft li{
+    margin: 30px;
+    list-style: none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header .contentleft li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.header .contentleft li a:hover{
+    color: blueviolet;
+    font-size: 1.5rem;
+}
+.header .contentright{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    margin-left: 48%;
+    
+}
+.header .contentright ul{
+    list-style: none;
+    color: aliceblue;
+    display: flex;
+}
+.header .contentright ul li{
+    display: flexbox;
+    justify-content: space-around;
+    padding: 0px 0px 0px 17px;
+}
+.header .contentright li a:hover{
+    color: blueviolet;
+    font-size: 1.5rem;
+}
+.header .contentright li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.menu{ 
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 150px;
+    
+    
+}
+.menu ul{
+    
+    background-color: rgba(108, 128, 128, 0.712);
+    list-style: none;
+    border-radius: 20px;
+}
+.menu ul li a{
+    margin: 200px;
+    margin-bottom: 50px;
+
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+.menu ul li  a:hover{
+    color: aqua;
+    font-size: 65px;
+
+
+}
+.reservations{
+    display: flex;
+    align-self: center;
+
+}
+
+
+
+    
